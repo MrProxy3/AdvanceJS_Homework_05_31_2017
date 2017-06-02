@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  width: 80%;
+  border: 2px solid black;
+  margin-left: 10%;
+}
+
+.formAnswer, .formSelect {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+}
+
+.formSelect {
+  left: 10%;
+  #sel {
+  }
+}
+
+.formAnswer{
+  left: 25%;
+
+  #textArea {
+    margin-bottom: -13px;
+    resize: none;
+    font-size: 25px;
+    max-width: 300px;
+  }
+}
+
+#sel, #textArea {
+  height: 35px;
+  border-radius: 3px;
+}
+
+#btnSelect, #btnAnswer{
+  height: 35px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+#list {
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.question, .answer {
+  font: normal 36px sans-serif;
+
+}
